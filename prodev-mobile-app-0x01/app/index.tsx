@@ -10,18 +10,32 @@ const App = () => (
 );
 
 const styles = StyleSheet.create({
+  container: {
+    backgroundColor: "#90caf9",
+  },
   largeText: {
-    fontSize: 24,
-    fontWeight: 'bold',
-    marginBottom: 8,
+    fontSize: 30,
+    color: "#f44336",
+    marginBottom: 5,
+    fontWeight: "700",
+    fontVariant: ["small-caps"],
   },
   mediumText: {
-    fontSize: 18,
-    marginBottom: 6,
+    fontSize: 20,
+    color: "#9c27b0",
+    marginBottom: 10,
+    fontWeight: "500",
+    textAlign: "right",
   },
   smallText: {
-    fontSize: 14,
+    fontSize: 15,
+    color: "#2196f3",
+    fontWeight: "400",
+    textAlign: "center",
   },
 });
+
+
+  
 
 export default App;
